@@ -31,30 +31,11 @@
             font-style: normal;
         }
 
-
-        #carouselExampleAutoplaying {
-          height: 240px;
+        .feature-icon {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 0.75rem;
         }
-         #item1 {
-            height: 240px;
-            background-position: center center;
-            background-size: cover;
-        }
-         #item2 {
-              height: 240px;
-              background-position: center center;
-              background-size: cover;
-        }
-         #item3 {
-              height: 240px;
-              background-position: center center;
-              background-size: cover;
-        }
-
-        .carousel-caption > .c3 {
-            background-color: black;
-        }
-
         .c3 {
             background-color: #69cac7;
         }
@@ -91,41 +72,42 @@
 
     <div id="why_choose_us">
         <h2 class="protest-guerrilla-regular">WHY BUY FROM DROPKART?</h2>
-    </div>
-    <div class="container">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active item1">
-                    <img src="./images/fast_delivery.avif" class="d-block w-100 img1" alt="fast delivery">
-                        <div class="carousel-caption d-none d-md-block c1">
-                            <h5 class="protest-guerrilla-regular black">Fast Delivery</h5>
-                            <p class="black">Delivery Guaranteed Within 10 Minutes After Order Confirmation.</p>
-                        </div>
-                    </div>
-                <div class="carousel-item item2">
-                    <img src="./images/tick-mark.avif" class="d-block w-100 img2" alt="quality assurance">
-                    <div class="carousel-caption d-none d-md-block c2">
-                        <h5 class="protest-guerrilla-regular black">Quality Assurance</h5>
-                        <p class="black">Ensuring Quality Via 5-step Quality Check Process</p>
-                    </div>
-                    </div>
-                <div class="carousel-item item3">
-                    <img src="./images/ret_ref.avif" class="d-block w-100" alt="easy returns and refund policy">
-                    <div class="carousel-caption d-none d-md-block c3">
-                        <h5 class="protest-guerrilla-regular black">Easy Returns and Refund Policy</h5>
-                        <p class="black">Hassle-free Policies and Terms to Return Your Goods Or Claim Refunds</p>
-                    </div>
-                </div>
-            </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+              <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+        </svg>
+        </div>
+        <h3 class="fs-2">Fast Delivery</h3>
+        <p>We guarantee you fast-paced delivery. Once the order is placed, we guarantee the delivery of your 
+        products in under 15 minutes. If we exceed the time limit, we will offer 50% off on your purchase.</p>
       </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708"/>
+        </svg>
+        </div>
+        <h3 class="fs-2">Quality Assurance</h3>
+        <p>We ensure five-step quality assurance test to make sure the products
+            you get has no compromise in quality.</p>
+      </div>
+        <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+              <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+        </svg>
+        </div>
+        <h3 class="fs-2">Hassle-Free Refunds and Returns</h3>
+        <p>If you are not satisfied with your product, you can return it
+            within the next 24 hours and get your refund. The customer care will always be there 
+        to help you out!</p>
+      </div>
+    </div>
+    </div>
     </div>
     <hr>
     <footer>
