@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Subscription</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <style>
+
+        .pricing-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          gap: 2rem;
+          margin-top: 25px;
+        }
+    
+        .pricing-plan {
+          flex: 1;
+          max-width: 400px;
+          padding: 20px;
+          background-color: #f2f2f2;
+          border-radius: 5px;
+          text-align: center;
+        }
+    
+        .plan-title {
+          font-size: 24px;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+    
+        .plan-price {
+          font-size: 48px;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+    
+        .plan-features {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+    
+        .plan-features li {
+          margin-bottom: 20px;
+        }
+    
+        .plan-button {
+          padding: 10px;
+          background-color: #ff6600;
+          color: #fff;
+          border-radius: 5px;
+          border: none;
+        }
+    
+        @media (max-width: 1250px) {
+          .pricing-container {
+            flex-direction: column;
+            height: 100%;
+          }
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+        }
+
+        .protest-guerrilla-regular {
+            font-family: "Protest Guerrilla", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        #footer {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-weight: 200;
+        }
+
+      </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+              <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+            </svg>
+            DropKart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          <a class="nav-link" href="./shop.html">Shop <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+          </svg></a>
+          <a class="nav-link" href="./daily_sub.html">Daily Subscription</a>
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+    
+    <div class="pricing-container">
+        <div class="pricing-plan">
+          <div class="plan-title protest-guerrilla-regular">Basic</div>
+          <div class="plan-price">$11.99/month</div>
+          <ul class="plan-features">
+            <li>✅ 2 Items Daily Delivery @No Cost (upto $5) </li>
+            <li>✅ 1 User</li>
+            <li>🚫 Cashback</li>
+          </ul>
+          <button class="plan-button">Sign Up</a>
+        </div>
+        <div class="pricing-plan">
+          <div class="plan-title protest-guerrilla-regular">Standard</div>
+          <div class="plan-price">$19.99/month</div>
+          <ul class="plan-features">
+            <li>✅ 4 Items Daily Delivery @No Cost (upto $10)</li>
+            <li>✅ 5 Users</li>
+            <li>✅ Monthly Cashback</li>
+          </ul>
+          <button class="plan-button">Sign Up</a>
+        </div>
+        <div class="pricing-plan">
+          <div class="plan-title protest-guerrilla-regular">Premium</div>
+          <div class="plan-price">$29.99/month</div>
+          <ul class="plan-features">
+            <li>✅ 8 Items Daily Delivery @No Cost (upto $15)</li>
+            <li>✅ 10 Users</li>
+            <li>✅ Daily Cashback</li>
+          </ul>
+          <button class="plan-button">Sign Up</a>
+        </div>
+      </div>
+
+      <hr>
+    <footer>
+      <p id="footer">&#169; Copyright</p>
+     </footer>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
